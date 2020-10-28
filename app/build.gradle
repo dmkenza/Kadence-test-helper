@@ -34,10 +34,6 @@ android {
 dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.2.1'
-
 
     //test
     api 'org.mockito:mockito-android:2.6.3'
@@ -46,11 +42,10 @@ dependencies {
     api 'androidx.test:rules:1.3.1-alpha02'
 
 
-
     //coroutines
-    api 'org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.0.1'
-    api 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
-    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.6'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.0.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.6'
 
 
 }
